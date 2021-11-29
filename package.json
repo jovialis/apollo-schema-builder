@@ -1,0 +1,14 @@
+{
+  "name": "apollo-schema-builder",
+  "description": "A collection of tools to help modularize your Apollo schema definitions.",
+  "version": "1.0.0",
+  "private": false,
+  "author": {
+    "email": "dylan@sandboxlabs.co",
+    "name": "Dylan Hanson (jovialis)"
+  },
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "graphql": "^16.0.1"
+  }
+}
