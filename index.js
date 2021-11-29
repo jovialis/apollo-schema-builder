@@ -45,7 +45,7 @@ class GQLSchemaBuilder {
     }
 
     get objectResolvers() {
-        return this.#objectResolvers;
+        return this.#unifyInheritance(this.#objectResolvers, b => b.objectResolvers);
     }
 
     addBuilder(builder) {
