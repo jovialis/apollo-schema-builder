@@ -1,7 +1,7 @@
 {
   "name": "apollo-schema-builder",
   "description": "A collection of tools to help modularize your Apollo schema definitions.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "license": "MIT",
   "repository": {
