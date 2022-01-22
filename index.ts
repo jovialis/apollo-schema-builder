@@ -5,7 +5,7 @@
 import {gql} from "apollo-server";
 import {DocumentNode} from "graphql";
 
-export class ApolloSchemaBuilder {
+export default class ApolloSchemaBuilder {
 
     private _childBuilders: ApolloSchemaBuilder[];
 
