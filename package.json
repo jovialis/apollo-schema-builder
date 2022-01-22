@@ -1,12 +1,14 @@
 {
   "name": "apollo-schema-builder",
   "description": "A collection of tools to help modularize your Apollo schema definitions.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "prepublish": "tsc",
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jovialis/apollo-schema-builder"
@@ -21,5 +23,8 @@
   },
   "devDependencies": {
     "typescript": "^4.5.4"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
